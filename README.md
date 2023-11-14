@@ -187,7 +187,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/Mohammad-Ghiyasuddin/Deploy-Netflix-Clone-CI-CD-on-Docker-with-Monitoring.git'
+                git branch: 'main', url: 'https://github.com/Mohammad-Ghiyasuddin/Deploy-Netflix-Clone-DevSecOps.git'
             }
         }
         stage("Sonarqube Analysis") {
@@ -277,7 +277,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/Mohammad-Ghiyasuddin/Deploy-Netflix-Clone-CI-CD-on-Docker-with-Monitoring.git'
+                git branch: 'main', url: 'https://github.com/Mohammad-Ghiyasuddin/Deploy-Netflix-Clone-DevSecOps.git'
             }
         }
         stage("Sonarqube Analysis "){
@@ -665,5 +665,4 @@ On docker
 **Phase 5: Cleanup**
 
 1. **Cleanup AWS EC2 Instances:**
-    - Terminate AWS EC2 instances that are no longer needed.#   N e t f l i x - C l o n e - C I - C D - o n - D o c k e r - w i t h - M o n i t o r i n g -  
- 
+    - Terminate AWS EC2 instances that are no longer needed.
